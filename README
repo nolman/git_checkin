@@ -12,4 +12,4 @@ Enter a description of what you worked on:
 Enter your pair name:
 (these three values will be persisted for you for future check-ins)
 
-The ci script will then try to pull(and auto merge if possible) run rake test, if it passes your changes will be committed with the details you entered.  The script will then pull again and rerun tests if there were any changes and then push your changes.
+The ci script will then try to pull(and auto merge if possible) migrate run unit/functional/integration tests, if it passes your changes will be committed with the details you entered.  The script will then pull again and rerun tests if there were any changes and then push your changes.
