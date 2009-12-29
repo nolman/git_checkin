@@ -83,7 +83,7 @@ namespace :git do
   end
   
   def config_key_for(prompt)
-    "qbid.#{prompt.gsub(/[^0-9a-zA-Z]+/, '').downcase}"
+    "git_checkin.#{prompt.gsub(/[^0-9a-zA-Z]+/, '').downcase}"
   end
   
   def merged?(result)
