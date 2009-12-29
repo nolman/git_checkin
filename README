@@ -4,7 +4,8 @@ sample usage:
 
 when you are ready to check in:
 
-git add .
+git add . -u #add all existing changes (-u removes any missing files)
+git diff --cached | mate   #be a good developer and check your changes
 ./ci
 Enter your card number:
 Enter a description of what you worked on:
