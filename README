@@ -13,3 +13,5 @@ Enter your pair name:
 (these three values will be persisted for you for future check-ins)
 
 The ci script will then try to pull(and auto merge if possible) migrate run unit/functional/integration tests, if it passes your changes will be committed with the details you entered.  The script will then pull again and rerun tests if there were any changes and then push your changes.
+
+This is based on scripts by http://github.com/schubert
